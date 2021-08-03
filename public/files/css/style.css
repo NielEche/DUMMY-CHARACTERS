@@ -1,0 +1,382 @@
+/* CUSTOM STYLE */
+
+@font-face {
+    font-family: 'Menlo';
+    src: url('../css/menlo-regular.ttf')format('truetype');
+}
+
+.nopadding {
+    padding: 0px !important;
+}
+
+.btn {
+     outline: 0px !important;
+}
+
+/* HEADER STYLES */
+
+.bio {
+    background-image: linear-gradient(to right, #394ea0 , #557ab9);
+    padding:5px;
+    border-color: #858481 !important;
+    border-style: outset !important;
+    border-bottom: none !important;
+}
+
+.biobtn {
+    border-radius:0px !important;
+    border-color: #858481 !important;
+    border-style: outset !important;
+    background-color: #d9d7d2 !important;
+    padding: 0px 8px !important;
+    border-width: 2px !important;
+    font-family: 'Menlo' !important;
+}
+
+.biobtn span {
+    color:#000000;
+    font-family:'Menlo' !important;
+    font-size: 13px !important;
+}
+
+.biodetails{
+    background-color: #000000;
+    padding: 50px;
+    border-color: #858481 !important;
+    border-style: outset !important;
+    border-top: none !important;
+    background-color: #d9d7d2 !important;
+}
+
+.biodetails p {
+   font-family: 'Menlo';
+   font-size: 13px;
+}
+
+.biodetails h3 {
+    font-family: 'Menlo';
+    font-weight: bolder;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 55px;
+   text-shadow: 1px 1px #000, 
+                2px 2px #000, 
+                3px 3px #000;
+   -webkit-transition: all 0.12s ease-out;
+   -moz-transition:    all 0.12s ease-out;
+   -ms-transition:     all 0.12s ease-out;
+   -o-transition:      all 0.12s ease-out;
+}
+
+.marquee span {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 5s linear infinite;
+  }
+  
+  
+  @keyframes marquee {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-100%, 0);
+    }
+  }
+
+  .contactbio {
+    background-image: linear-gradient(to right, #858583 , #c0c0c0);
+    padding:3px;
+    border-color: #d6d1cb !important;
+    border-style: outset !important;
+    border-bottom: none !important;
+}
+
+.terminalbiobtn {
+    border-radius:0px !important;
+    border-color: #fffefc !important;
+    border-style: outset !important;
+    background-color: #cfccc3 !important;
+    padding: 1px 6px !important;
+    border-width: 2px !important;
+    opacity: 10 !important;
+    margin-right: 2px;
+    float: right;
+}
+
+.terminalbiobtn span {
+    color:#000000;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 14px !important;
+}
+
+.contactbiodetails{
+    padding: 50px;
+    border-color: #d6d1cb !important;
+    border-style: outset !important;
+    border-top: none !important;
+    background-color: #000 !important;
+}
+
+.contactbiodetails label  {
+    font-family: 'Menlo';
+    color: #4AF626;
+    font-weight: lighter;
+}
+
+label {
+    font-family: 'Menlo' !important;
+}
+
+.contactbiodetails input {
+    border: none ;
+    background-color: #000;
+    color: #4AF626;
+}
+
+.contactbiodetails textarea {
+    border: none ;
+    background-color: #000;
+    color: #4AF626;
+}
+
+.contactbiodetails button{
+    border:none;
+    color: #4AF626; 
+    background-color: #000;
+    font-family: 'Menlo';
+}
+
+  /* HEADER STYLE */
+
+
+/* BODY STYLES */
+
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100vw;
+	height: 100vh;
+	z-index: 9999;
+    background-color: #000;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+
+}
+
+.se-pre-con h1{
+    position: relative; 
+    color: #4AF626;
+    text-align: center;
+    line-height: 600px;
+    z-index: 9999;
+    font-family: 'Menlo';
+    font-weight: bolder;
+}
+
+.outerlinks {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.outerlinks .links{
+    padding: 15px;
+    margin-top: 10px;
+    font-family: 'Menlo';
+   font-size: 11px;
+   text-align: center;
+   font-weight: bold;
+}
+
+.innerlinks {
+    font-family: 'Menlo';
+    font-size: 11px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none !important;
+}
+
+.innerlinks p {
+    color:#333 !important;
+}
+
+.projectheader h4 a {
+    color: #000 !important;
+    font-family: 'Menlo';
+    font-size: 14px;
+    font-weight: bold;
+    border: none !important;
+    text-decoration: underline;
+}
+
+p {
+    line-height: 1.3em !important;;
+}
+
+.projectbody p {
+    color:#000 !important;
+    font-family: 'Menlo';
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.portimage {
+    max-height: 20vw;
+max-width: 19vw;
+display: block;
+margin-bottom: 10px;
+cursor: pointer;
+}
+
+@media screen and (max-width: 900px) { 
+    .portimage {
+        max-height: 50vw;
+        max-width: 100%;
+        width: auto;
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    }
+}
+
+.hori hr {
+    border-color: #000 !important;
+}
+
+.vl {
+    border-left: 2px solid #000;
+    height: 100%;
+    position: absolute;
+    right: 0%;
+}
+
+.pp h3 {
+    color: #4AF626;
+    font-family: 'Menlo';
+    font-size: 14px;
+}
+
+.legal-index {
+    color: #4AF626;
+    list-style-type: upper-roman !important;
+    list-style-position: inside;
+    margin-left: 0 !important;
+}
+
+.legal-index a {
+    color: #4AF626 !important;
+    font-size: 12px;
+    font-family: 'Menlo';
+}
+
+#primary-content {
+    color: #4AF626 !important;
+    font-family: 'Menlo';
+}
+
+#primary-content p , #primary-content a , #primary-content li{
+   font-size:12px;
+   color: #4AF626 !important;
+}
+
+#primary-content ol {
+    margin-left: 1.5vw;
+    margin-bottom: 1em;
+}
+
+.alert {
+   position: fixed;
+   top: 2%;
+   right: 0%;
+}
+
+.alert-success {
+    border-color: #858481 !important;
+    border-style: outset !important;
+    background-color: #d9d7d2 !important;
+    border-radius: 0px !important;
+    border-width: 2px !important;
+    font-family: 'Menlo' !important;
+    color: #000 !important;
+}
+
+.alert-danger {
+    border-color: #858481 !important;
+    border-style: outset !important;
+    border-radius: 0px !important;
+    border-width: 2px !important;
+    font-family: 'Menlo' !important;
+    color: #000 !important;
+}
+
+/* BODY STYLES */
+
+
+/* FOOTER STYLES */
+
+footer{
+    background-color: #c0c0c0;
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-color:#dfdfdf !important;
+  border-bottom : 0px;
+  border-right : 0px;
+  border-left : 0px;
+  border-top:2px;
+  border-style: solid !important;
+  padding: 3px;
+} 
+
+.footerbtn {
+    border-radius:0px !important;
+    border-color: #dfdfdf !important;
+    border-style: outset !important;
+    border-width: 3px !important;
+    background-color: #c0c0c0 !important;
+    padding: 0px 9px !important;
+}
+
+.footertimeBtn {
+    border-width: 2px !important;
+}
+
+.footerbtn span {
+   font-family: 'Menlo';
+   font-size:13px;
+}
+
+.footerbtn a  {
+   text-decoration: none;
+   color: #000;
+}
+
+.footerbtn a:hover  {
+    text-decoration: none;
+    color: #000;
+ }
+
+.footerbtn1 {
+    padding: 10px 0px !important;
+    border-width: 2px !important;
+    margin-left: 10px ;
+}
+
+.footersocials img{
+    padding-right: 5px;
+}
+
+.hide {
+    display: none;
+}
+
+.myDiv:hover + .hide {
+    display: block;
+    color:#000 !important;
+    font-size: 40px;
+}
