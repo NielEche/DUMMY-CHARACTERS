@@ -1,4 +1,4 @@
-<p align="center"><a href="https://dummy-characters.space" target="_blank"><img src="{{ asset('files/images/DC3DTRANS.gif') }}" width="400"></a></p>
+<p align="center"><a href="https://dummy-characters.space" target="_blank"><img src="https://www.dummy-characters.space/files/images/DC3DTRANS.gif" width="400"></a></p>
 <!-- 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
@@ -9,7 +9,7 @@
 
 ## About DUMMY CHARACTERS
 
-A database of my my interdisciplinary design practice
+A database of my interdisciplinary Design and ART practice
 
 
 
